@@ -9,4 +9,5 @@ entity Student : managed {
 entity Student2 : managed {
     key id   : UUID;
         name : String;
+        rollnumer:Int16;
 }
