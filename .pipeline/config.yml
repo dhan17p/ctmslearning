@@ -26,6 +26,8 @@ steps:
 stages:
   'Confirm':
     manualConfirmation: false
+  'Release':
+    tmsUpload: true
 
 #  Integration:
 #    credentials:
