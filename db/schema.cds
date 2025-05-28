@@ -9,5 +9,5 @@ entity Student : managed {
 entity Student2 : managed {
     key id   : UUID;
         name : String;
-        rollnumer:String;
+        rollnumer:Int16;
 }
