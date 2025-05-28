@@ -6,3 +6,7 @@ entity Student : managed {
     key id   : UUID;
         name : String;
 }
+entity Student2 : managed {
+    key id   : UUID;
+        name : String;
+}
